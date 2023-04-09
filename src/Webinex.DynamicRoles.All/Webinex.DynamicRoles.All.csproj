@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(MSBuildThisFileDirectory)/Package.props"/>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Webinex.DynamicRoles.All</PackageId>
+    <RootNamespace>Webinex.DynamicRoles.All</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Webinex.DynamicRoles.Abstractions\Webinex.DynamicRoles.Abstractions.csproj"/>
+    <ProjectReference Include="..\Webinex.DynamicRoles.AspNetCore\Webinex.DynamicRoles.AspNetCore.csproj"/>
+    <ProjectReference Include="..\Webinex.DynamicRoles\Webinex.DynamicRoles.csproj"/>
+    <ProjectReference Include="..\Webinex.DynamicRoles.EntityFrameworkCore\Webinex.DynamicRoles.EntityFrameworkCore.csproj"/>
+    <ProjectReference Include="..\Webinex.DynamicRoles.Http.AspNetCore\Webinex.DynamicRoles.Http.AspNetCore.csproj"/>
+    <ProjectReference Include="..\Webinex.DynamicRoles.Http\Webinex.DynamicRoles.Http.csproj"/>
+  </ItemGroup>
+
+</Project>

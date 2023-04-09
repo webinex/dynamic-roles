@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(MSBuildThisFileDirectory)/../Webinex.DynamicRoles.All/Package.props"/>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Webinex.DynamicRoles.Abstractions</PackageId>
+    <RootNamespace>Webinex.DynamicRoles</RootNamespace>
+  </PropertyGroup>
+
+</Project>

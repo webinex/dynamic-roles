@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles", "Webinex.DynamicRoles\Webinex.DynamicRoles.csproj", "{6764FFFB-9072-4E52-8F0E-692B2936C5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.Abstractions", "Webinex.DynamicRoles.Abstractions\Webinex.DynamicRoles.Abstractions.csproj", "{70A66156-CDE5-40FB-A5CD-7D614E19529B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.All", "Webinex.DynamicRoles.All\Webinex.DynamicRoles.All.csproj", "{9D482129-B010-459D-99C6-60D659499CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.AspNetCore", "Webinex.DynamicRoles.AspNetCore\Webinex.DynamicRoles.AspNetCore.csproj", "{B16B2CE1-5DB7-445B-9897-098BC027D69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.EntityFrameworkCore", "Webinex.DynamicRoles.EntityFrameworkCore\Webinex.DynamicRoles.EntityFrameworkCore.csproj", "{688A095A-2A10-4463-AA26-F5DF4BF71E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.Http", "Webinex.DynamicRoles.Http\Webinex.DynamicRoles.Http.csproj", "{9DA3AA34-AC96-4E1E-A29A-DC94E4F21A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.Http.AspNetCore", "Webinex.DynamicRoles.Http.AspNetCore\Webinex.DynamicRoles.Http.AspNetCore.csproj", "{5377D5A0-850C-436D-94E1-9EC9A17EFEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinex.DynamicRoles.Tests.Unit", "Webinex.DynamicRoles.Tests.Unit\Webinex.DynamicRoles.Tests.Unit.csproj", "{03D7D806-0CD1-4BB6-8B55-EFF094EAAEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6764FFFB-9072-4E52-8F0E-692B2936C5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6764FFFB-9072-4E52-8F0E-692B2936C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6764FFFB-9072-4E52-8F0E-692B2936C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6764FFFB-9072-4E52-8F0E-692B2936C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A66156-CDE5-40FB-A5CD-7D614E19529B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A66156-CDE5-40FB-A5CD-7D614E19529B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A66156-CDE5-40FB-A5CD-7D614E19529B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A66156-CDE5-40FB-A5CD-7D614E19529B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D482129-B010-459D-99C6-60D659499CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D482129-B010-459D-99C6-60D659499CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D482129-B010-459D-99C6-60D659499CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D482129-B010-459D-99C6-60D659499CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16B2CE1-5DB7-445B-9897-098BC027D69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16B2CE1-5DB7-445B-9897-098BC027D69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16B2CE1-5DB7-445B-9897-098BC027D69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16B2CE1-5DB7-445B-9897-098BC027D69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688A095A-2A10-4463-AA26-F5DF4BF71E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688A095A-2A10-4463-AA26-F5DF4BF71E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688A095A-2A10-4463-AA26-F5DF4BF71E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688A095A-2A10-4463-AA26-F5DF4BF71E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA3AA34-AC96-4E1E-A29A-DC94E4F21A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA3AA34-AC96-4E1E-A29A-DC94E4F21A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA3AA34-AC96-4E1E-A29A-DC94E4F21A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA3AA34-AC96-4E1E-A29A-DC94E4F21A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5377D5A0-850C-436D-94E1-9EC9A17EFEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5377D5A0-850C-436D-94E1-9EC9A17EFEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5377D5A0-850C-436D-94E1-9EC9A17EFEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5377D5A0-850C-436D-94E1-9EC9A17EFEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D7D806-0CD1-4BB6-8B55-EFF094EAAEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D7D806-0CD1-4BB6-8B55-EFF094EAAEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D7D806-0CD1-4BB6-8B55-EFF094EAAEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D7D806-0CD1-4BB6-8B55-EFF094EAAEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
